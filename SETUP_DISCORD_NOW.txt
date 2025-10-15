@@ -1,0 +1,16 @@
+HOW TO SET UP DISCORD WEBHOOK (5 MINUTES)
+==========================================
+
+1. Open Discord
+2. Go to your server (or create one)
+3. Right-click a channel → Edit Channel
+4. Click "Integrations" → "Webhooks" → "New Webhook"
+5. Copy the Webhook URL (looks like: https://discord.com/api/webhooks/123456/abcdefg)
+6. Open: C:\Users\Andrew\options_bot\.env
+7. Find line: DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN
+8. Replace with your actual webhook URL
+9. Save the file
+10. Run again: python -m options_bot.runner.scan
+
+That's it! You'll get beautiful formatted results in Discord.
+
